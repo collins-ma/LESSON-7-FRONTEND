@@ -6,7 +6,7 @@ const Layout = () => {
             {/* Common layout components like headers, footers, etc. */}
             <Outlet />
         </div>
-    );
+    )
 }
 
 export default Layout;

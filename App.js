@@ -23,7 +23,10 @@ function App() {
           <Route index element={<Welcome />} />
 
           <Route path="notes">
-            <Route index element={<NotesList />} />
+          <Route index element={<NotesList />} />
+              <Route path=":id" element={<EditNote />} />
+              <Route path="new" element={<NewNote />} />
+
           </Route>
 
           <Route path="users">

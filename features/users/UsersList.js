@@ -26,11 +26,12 @@ const UsersList = () => {
 
   if (isError) {
     content = (
-      <p className={isError ? "text-red-500 font-bold" : "hidden"}>
-        {error?.data?.message}
-      </p>
+        <p className="errmsg text-red-600 bg-red-100 p-4 rounded-md">
+            {error?.data?.message}
+        </p>
     );
-  }
+}
+
 
 
   if (isSuccess) {

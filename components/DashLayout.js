@@ -11,7 +11,7 @@ const DashLayout = () => {
             </main>
             <DashFooter />
         </div>
-    );
+    )
 }
 
 export default DashLayout;
